@@ -24,6 +24,10 @@ const GOOGLE_FORM_URL =
 
 export default function App() {
   const path = window.location.pathname.replace(/\/$/, '') || '/';
+  if (path === '/') {
+    window.location.replace('/news');
+    return null;
+  }
   if (path === '/news') return <NewsList />;
   const newsDetailMatch = path.match(/^\/news\/([^/]+)$/);
   if (newsDetailMatch) return <NewsDetail id={newsDetailMatch[1]} />;
