@@ -1,0 +1,6 @@
+{
+  "name": "國民健康署安心血壓站地圖",
+  "description": "國民健康署安心血壓站地圖與異常通報機制功能 Prototype",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

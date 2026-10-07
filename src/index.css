@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Leaflet Custom Overrides */
+.leaflet-container {
+  font-family: inherit;
+  z-index: 10;
+}
+
+.custom-bp-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.user-loc-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 16px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15) !important;
+  padding: 6px !important;
+  border: 1px solid #e5e7eb;
+}
+
+.leaflet-popup-content {
+  margin: 10px 12px !important;
+  line-height: 1.5;
+}
+
+.leaflet-popup-tip {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
